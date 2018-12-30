@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="Board-Task_main" target="1.8" />
+      <module name="Board-Task_test" target="1.8" />
+      <module name="Rationals-Task_main" target="1.8" />
+      <module name="Rationals-Task_test" target="1.8" />
+      <module name="util_main" target="1.8" />
+      <module name="util_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

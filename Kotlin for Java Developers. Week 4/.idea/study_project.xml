@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="StudySettings">
+    <StudyTaskManager>
+      <option name="VERSION" value="11" />
+      <option name="myUserTests">
+        <map />
+      </option>
+      <option name="course">
+        <Course>
+          <option name="authors">
+            <list />
+          </option>
+          <option name="courseMode" value="Study" />
+          <option name="courseType" value="Coursera" />
+          <option name="customPresentableName" />
+          <option name="description" value="Assignment for Week 4 of the Coursera &lt;a href=&quot;https://www.coursera.org/learn/kotlin-for-java-developers/&quot;&gt;Kotlin for Java Developers&lt;/a&gt; course" />
+          <option name="fromZip" value="false" />
+          <option name="index" value="-1" />
+          <option name="language" value="kotlin" />
+          <option name="languageCode" value="en" />
+          <option name="name" value="Kotlin for Java Developers. Week 4" />
+          <option name="stepikChangeStatus" value="Up to date" />
+          <option name="items">
+            <list>
+              <Lesson>
+                <option name="customPresentableName" />
+                <option name="id" value="0" />
+                <option name="index" value="1" />
+                <option name="name" value="Rationals" />
+                <option name="stepikChangeStatus" value="Up to date" />
+                <option name="updateDate" value="0" />
+                <option name="taskList">
+                  <list>
+                    <EduTask>
+                      <option name="additionalFiles">
+                        <map>
+                          <entry key="assignmentKey">
+                            <value>
+                              <AdditionalFile>
+                                <option name="text" value="Po8opb2bEeifOA78c-X_8g" />
+                                <option name="visible" value="false" />
+                              </AdditionalFile>
+                            </value>
+                          </entry>
+                          <entry key="partId">
+                            <value>
+                              <AdditionalFile>
+                                <option name="text" value="fCAt8" />
+                                <option name="visible" value="false" />
+                              </AdditionalFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="MD" />
+                      <option name="descriptionText" value="## Rational Numbers&#10;&#10;Your task is to implement a class `Rational` representing rational numbers.&#10;A rational number is a number expressed as a ratio `n/d` , where `n` (numerator)&#10;and `d` (denominator) are integer numbers, except that `d` cannot be zero.&#10;If the denominator is zero, you can throw an exception on creating a new&#10;instance of the class, e.g. `IllegalArgumentException`.&#10;&#10;Examples of rational numbers are `1/2`, `2/3`, `117/1098`, and `2/1` (which&#10;can alternatively be written simply as `2`).&#10;Rational numbers are represented exactly, without rounding or&#10;approximation, which gives them the advantage compared to floating-point numbers. &#10;&#10;Your task it to model the behavior of rational numbers, including allowing them&#10;to be added, subtracted, multiplied, divided and compared.&#10;All arithmetic and comparison operations must be available for rationals:&#10;`+`, `-`, `*`, `/`, `==`, `&lt;`, `&gt;=` etc.&#10;&#10;The `Rational` class should contain a numerator and denominator which might be&#10;unlimited numbers, so use `java.math.BigInteger` class for storing them.&#10;&#10;The rational numbers must be compared due to their &quot;normalized&quot; forms:&#10;for example, `1/2` should be equal to `2/4`, or `117/1098` to `13/122`.&#10;The string representation of a rational must be also given in the normalized form.&#10;Note that the denominator `1` must be omitted, so `2/1` must be printed as `&quot;2&quot;`.&#10;&#10;Note that you can use `BigInteger.gcd` to find the greatest common divisor&#10;used in the normalized form calculation.  &#10;&#10;You need to support two ways to create rationals. The first one is to convert&#10;a string representation to a rational directly, like in `&quot;1/2&quot;.toRational()`.&#10;Converting an integer number should also be possible, and `1` should be used&#10;as denominator by default: `&quot;23&quot;.toRational()` is the same as `&quot;23/1&quot;.toRational()`.&#10;&#10;The alternative way to create a rational is to use `divBy` infix function&#10;like in `1 divBy 2`. The receiver and the argument might be of types `Int`,&#10;`Long`, or `BigInteger.` &#10;&#10;&#10;#### Examples&#10;&#10;All the following equality checks must be evaluated to `true`:&#10;&#10;```&#10;val half = 1 divBy 2&#10;val third = 1 divBy 3&#10;&#10;val sum: Rational = half + third&#10;5 divBy 6 == sum&#10;&#10;val difference: Rational = half - third&#10;1 divBy 6 == difference&#10;&#10;val product: Rational = half * third&#10;1 divBy 6 == product&#10;&#10;val quotient: Rational = half / third&#10;3 divBy 2 == quotient&#10;&#10;val negation: Rational = -half&#10;-1 divBy 2 == negation&#10;&#10;(2 divBy 1).toString() == &quot;2&quot;&#10;(-2 divBy 4).toString() == &quot;-1/2&quot;&#10;&quot;117/1098&quot;.toRational().toString() == &quot;13/122&quot;&#10;&#10;val twoThirds = 2 divBy 3&#10;half &lt; twoThirds&#10;&#10;half in third..twoThirds&#10;&#10;2000000000L divBy 4000000000L == 1 divBy 2&#10;&#10;&quot;912016490186296920119201192141970416029&quot;.toBigInteger() divBy&#10;    &quot;1824032980372593840238402384283940832058&quot;.toBigInteger() == 1 divBy 2&#10;```" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://www.coursera.org/learn/kotlin-for-java-developers/programming/FNjea/rationals/discussions" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="index" value="1" />
+                      <option name="name" value="Task" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepId" value="0" />
+                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="src/rationals/Rational.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/rationals/Rational.kt" />
+                                <option name="text" value="package rationals&#10;&#10;&#10;&#10;fun main(args: Array&lt;String&gt;) {&#10;    val half = 1 divBy 2&#10;    val third = 1 divBy 3&#10;&#10;    val sum: Rational = half + third&#10;    println(5 divBy 6 == sum)&#10;&#10;    val difference: Rational = half - third&#10;    println(1 divBy 6 == difference)&#10;&#10;    val product: Rational = half * third&#10;    println(1 divBy 6 == product)&#10;&#10;    val quotient: Rational = half / third&#10;    println(3 divBy 2 == quotient)&#10;&#10;    val negation: Rational = -half&#10;    println(-1 divBy 2 == negation)&#10;&#10;    println((2 divBy 1).toString() == &quot;2&quot;)&#10;    println((-2 divBy 4).toString() == &quot;-1/2&quot;)&#10;    println(&quot;117/1098&quot;.toRational().toString() == &quot;13/122&quot;)&#10;&#10;    val twoThirds = 2 divBy 3&#10;    println(half &lt; twoThirds)&#10;&#10;    println(half in third..twoThirds)&#10;&#10;    println(2000000000L divBy 4000000000L == 1 divBy 2)&#10;&#10;    println(&quot;912016490186296920119201192141970416029&quot;.toBigInteger() divBy&#10;            &quot;1824032980372593840238402384283940832058&quot;.toBigInteger() == 1 divBy 2)&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="test/TestRationals.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="test/TestRationals.kt" />
+                                <option name="text" value="package rationals&#10;&#10;import org.junit.Assert&#10;import org.junit.Test&#10;&#10;class TestRationals {&#10;    @Test&#10;    fun test1Sum() {&#10;        val sum: Rational = (1 divBy 2) + (1 divBy 3)&#10;        Assert.assertEquals(&quot;Wrong result for sum&quot;, 5 divBy 6, sum)&#10;    }&#10;&#10;    @Test&#10;    fun test2Difference() {&#10;        val difference: Rational = (1 divBy 2) - (1 divBy 3)&#10;        Assert.assertEquals(&quot;Wrong result for difference&quot;, 1 divBy 6, difference)&#10;    }&#10;&#10;    @Test&#10;    fun test3Product() {&#10;        val product: Rational = (1 divBy 2) * (1 divBy 3)&#10;        Assert.assertEquals(&quot;Wrong result for product&quot;, 1 divBy 6, product)&#10;    }&#10;&#10;    @Test&#10;    fun test4Quotient() {&#10;        val quotient: Rational = (1 divBy 2) / (1 divBy 3)&#10;        Assert.assertEquals(&quot;Wrong result for quotient&quot;, 3 divBy 2, quotient)&#10;    }&#10;&#10;    @Test&#10;    fun test5Negation() {&#10;        val negation: Rational = -(1 divBy 2)&#10;        Assert.assertEquals(&quot;Wrong result for negation&quot;, -1 divBy 2, negation)&#10;    }&#10;&#10;    @Test&#10;    fun test6Integer() {&#10;        Assert.assertEquals(&quot;Wrong string representation for integer number&quot;,&#10;            (2 divBy 1).toString(), &quot;2&quot;)&#10;    }&#10;&#10;    @Test&#10;    fun test7NormalizedForm() {&#10;        Assert.assertEquals(&quot;Wrong normalized form for '-2 divBy 4'&quot;,&#10;            (-2 divBy 4).toString(), &quot;-1/2&quot;)&#10;        Assert.assertEquals(&quot;Wrong normalized form for '117/1098'&quot;,&#10;            &quot;117/1098&quot;.toRational().toString(), &quot;13/122&quot;)&#10;    }&#10;&#10;    @Test&#10;    fun test8Comparison() {&#10;        Assert.assertTrue(&quot;Wrong result for comparison&quot;, (1 divBy 2) &lt; (2 divBy 3))&#10;    }&#10;&#10;    @Test&#10;    fun test9InRange() {&#10;        Assert.assertTrue(&quot;Wrong result for checking belonging to a range&quot;,&#10;            (1 divBy 2) in (1 divBy 3)..(2 divBy 3))&#10;    }&#10;&#10;    @Test&#10;    fun test10Long() {&#10;        Assert.assertEquals(&quot;Wrong result for normalization of '2000000000L divBy 4000000000L'&quot;,&#10;            2000000000L divBy 4000000000L, 1 divBy 2)&#10;    }&#10;&#10;    @Test&#10;    fun test11BigInteger() {&#10;        Assert.assertEquals(&quot;Wrong result for normalization of\n&quot; +&#10;            &quot;\&quot;912016490186296920119201192141970416029\&quot;.toBigInteger() divBy\n&quot; +&#10;            &quot;\&quot;1824032980372593840238402384283940832058\&quot;.toBigInteger()&quot;,&#10;            &quot;912016490186296920119201192141970416029&quot;.toBigInteger() divBy&#10;            &quot;1824032980372593840238402384283940832058&quot;.toBigInteger(), 1 divBy 2)&#10;    }&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="testsText">
+                        <map>
+                          <entry key="test/TestRationals.kt" value="package rationals&#10;&#10;import org.junit.Assert&#10;import org.junit.Test&#10;&#10;class TestRationals {&#10;    @Test&#10;    fun test1Sum() {&#10;        val sum: Rational = (1 divBy 2) + (1 divBy 3)&#10;        Assert.assertEquals(&quot;Wrong result for sum&quot;, 5 divBy 6, sum)&#10;    }&#10;&#10;    @Test&#10;    fun test2Difference() {&#10;        val difference: Rational = (1 divBy 2) - (1 divBy 3)&#10;        Assert.assertEquals(&quot;Wrong result for difference&quot;, 1 divBy 6, difference)&#10;    }&#10;&#10;    @Test&#10;    fun test3Product() {&#10;        val product: Rational = (1 divBy 2) * (1 divBy 3)&#10;        Assert.assertEquals(&quot;Wrong result for product&quot;, 1 divBy 6, product)&#10;    }&#10;&#10;    @Test&#10;    fun test4Quotient() {&#10;        val quotient: Rational = (1 divBy 2) / (1 divBy 3)&#10;        Assert.assertEquals(&quot;Wrong result for quotient&quot;, 3 divBy 2, quotient)&#10;    }&#10;&#10;    @Test&#10;    fun test5Negation() {&#10;        val negation: Rational = -(1 divBy 2)&#10;        Assert.assertEquals(&quot;Wrong result for negation&quot;, -1 divBy 2, negation)&#10;    }&#10;&#10;    @Test&#10;    fun test6Integer() {&#10;        Assert.assertEquals(&quot;Wrong string representation for integer number&quot;,&#10;            (2 divBy 1).toString(), &quot;2&quot;)&#10;    }&#10;&#10;    @Test&#10;    fun test7NormalizedForm() {&#10;        Assert.assertEquals(&quot;Wrong normalized form for '-2 divBy 4'&quot;,&#10;            (-2 divBy 4).toString(), &quot;-1/2&quot;)&#10;        Assert.assertEquals(&quot;Wrong normalized form for '117/1098'&quot;,&#10;            &quot;117/1098&quot;.toRational().toString(), &quot;13/122&quot;)&#10;    }&#10;&#10;    @Test&#10;    fun test8Comparison() {&#10;        Assert.assertTrue(&quot;Wrong result for comparison&quot;, (1 divBy 2) &lt; (2 divBy 3))&#10;    }&#10;&#10;    @Test&#10;    fun test9InRange() {&#10;        Assert.assertTrue(&quot;Wrong result for checking belonging to a range&quot;,&#10;            (1 divBy 2) in (1 divBy 3)..(2 divBy 3))&#10;    }&#10;&#10;    @Test&#10;    fun test10Long() {&#10;        Assert.assertEquals(&quot;Wrong result for normalization of '2000000000L divBy 4000000000L'&quot;,&#10;            2000000000L divBy 4000000000L, 1 divBy 2)&#10;    }&#10;&#10;    @Test&#10;    fun test11BigInteger() {&#10;        Assert.assertEquals(&quot;Wrong result for normalization of\n&quot; +&#10;            &quot;\&quot;912016490186296920119201192141970416029\&quot;.toBigInteger() divBy\n&quot; +&#10;            &quot;\&quot;1824032980372593840238402384283940832058\&quot;.toBigInteger()&quot;,&#10;            &quot;912016490186296920119201192141970416029&quot;.toBigInteger() divBy&#10;            &quot;1824032980372593840238402384283940832058&quot;.toBigInteger(), 1 divBy 2)&#10;    }&#10;}" />
+                        </map>
+                      </option>
+                      <option name="updateDate" value="0" />
+                    </EduTask>
+                  </list>
+                </option>
+                <option name="unitId" value="0" />
+              </Lesson>
+              <Lesson>
+                <option name="customPresentableName" />
+                <option name="id" value="0" />
+                <option name="index" value="2" />
+                <option name="name" value="Board" />
+                <option name="stepikChangeStatus" value="Up to date" />
+                <option name="updateDate" value="0" />
+                <option name="taskList">
+                  <list>
+                    <EduTask>
+                      <option name="additionalFiles">
+                        <map>
+                          <entry key="assignmentKey">
+                            <value>
+                              <AdditionalFile>
+                                <option name="text" value="q3GRK8FuEeit4A6YDvCSVA" />
+                                <option name="visible" value="false" />
+                              </AdditionalFile>
+                            </value>
+                          </entry>
+                          <entry key="partId">
+                            <value>
+                              <AdditionalFile>
+                                <option name="text" value="rv5mL" />
+                                <option name="visible" value="false" />
+                              </AdditionalFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="MD" />
+                      <option name="descriptionText" value="## Board&#10;&#10;Your task is to implement interfaces `SquareBoard` and `GameBoard`.&#10;&#10;#### SquareBoard&#10;&#10;SquareBoard stores the information about the square board and all the cells on it.&#10;It allows to get a cell by its indexes, get parts of columns and rows on a board,&#10;or get a specified neighbour of a cell.&#10;&#10;Note that the numbering of cells starts with 1, not with 0.&#10;A board of a width 2 consists of the following cells:&#10;```&#10;(1, 1) (1, 2)&#10;(2, 1) (2, 2)&#10;```&#10;&#10;For the following examples, we'll use this board of a width 2:&#10;```&#10;val board = createSquareBoard(2)&#10;```&#10;&#10;If you call `board.getCellOrNull(3, 3)` for such board, you'll get `null` as&#10;the result, because the board doesn't have a cell with such coordinates.&#10;The function `Board.getCell` should throw `IllegalArgumentException` for&#10;incorrect values of `i` and `j`.&#10;&#10;You can write `board.getRow(1, 1..2)` or `board.getRow(1, 2 downTo 1)`,&#10;and you'll get the lists of cells `[(1, 1), (1, 2)]` and `[(1, 2), (1, 1)]`&#10;accordingly.&#10;Note how using the range `2 downTo 1` returns a row in a reversed order.&#10;You can use any range to get a part of a column or a row.&#10;&#10;Note that `getRow` and `getColumn` should return a list containing only&#10;the cells that belong to the board if the range is larger than the board limits&#10;and ignore other indexes,&#10;thus, `board.getRow(1, 1..10)` should return `[(1, 1), (1, 2)]`.  &#10;&#10;The neighbours of a cell `(1, 1)` depending on the direction should be:&#10;```&#10;Direction.UP - null     &#10;Direction.LEFT - null     &#10;Direction.DOWN - (2, 1) &#10;Direction.RIGHT - (1, 2)&#10;```&#10;&#10;Create only `width * width` cells; all the functions working with cells&#10;should return existing cells instead of creating new ones. &#10;&#10;#### GameBoard&#10;&#10;GameBoard lets to store the values in board cells, update them,&#10;and ask the general information about the stored values (like `any`,&#10;`all` etc.)&#10;Note that GameBoard extends SquareBoard.&#10;&#10;See `TestSquareBoard` and `TestGameBoard` for examples." />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://www.coursera.org/learn/kotlin-for-java-developers/programming/7fkLn/board/discussions" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="index" value="1" />
+                      <option name="name" value="Task" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepId" value="0" />
+                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="src/board/Board.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="src/board/Board.kt" />
+                                <option name="text" value="package board&#10;&#10;data class Cell(val i: Int, val j: Int)&#10;&#10;enum class Direction {&#10;    UP, DOWN, RIGHT, LEFT;&#10;&#10;    fun reversed() = when (this) {&#10;        UP -&gt; DOWN&#10;        DOWN -&gt; UP&#10;        RIGHT -&gt; LEFT&#10;        LEFT -&gt; RIGHT&#10;    }&#10;}&#10;&#10;interface SquareBoard {&#10;    val width: Int&#10;&#10;    fun getCellOrNull(i: Int, j: Int): Cell?&#10;    fun getCell(i: Int, j: Int): Cell&#10;&#10;    fun getAllCells(): Collection&lt;Cell&gt;&#10;&#10;    fun getRow(i: Int, jRange: IntProgression): List&lt;Cell&gt;&#10;    fun getColumn(iRange: IntProgression, j: Int): List&lt;Cell&gt;&#10;&#10;    fun Cell.getNeighbour(direction: Direction): Cell?&#10;}&#10;&#10;interface GameBoard&lt;T&gt; : SquareBoard {&#10;&#10;    operator fun get(cell: Cell): T?&#10;    operator fun set(cell: Cell, value: T?)&#10;&#10;    fun filter(predicate: (T?) -&gt; Boolean): Collection&lt;Cell&gt;&#10;    fun find(predicate: (T?) -&gt; Boolean): Cell?&#10;    fun any(predicate: (T?) -&gt; Boolean): Boolean&#10;    fun all(predicate: (T?) -&gt; Boolean): Boolean&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="src/board/BoardImpl.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list />
+                                      </option>
+                                      <option name="index" value="0" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="6" />
+                                          <option name="offset" value="90" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="initializedFromDependency" value="false" />
+                                      <option name="length" value="6" />
+                                      <option name="offset" value="90" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="TODO()" />
+                                      <option name="possibleAnswer" value="" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="studentAnswer" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list />
+                                      </option>
+                                      <option name="index" value="1" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="6" />
+                                          <option name="offset" value="149" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="initializedFromDependency" value="false" />
+                                      <option name="length" value="6" />
+                                      <option name="offset" value="149" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="TODO()" />
+                                      <option name="possibleAnswer" value="" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="studentAnswer" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="src/board/BoardImpl.kt" />
+                                <option name="text" value="package board&#10;&#10;import board.Direction.*&#10;&#10;fun createSquareBoard(width: Int): SquareBoard = TODO()&#10;fun &lt;T&gt; createGameBoard(width: Int): GameBoard&lt;T&gt; = TODO()&#10;&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="test/TestGameBoard.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/TestGameBoard.kt" />
+                                <option name="text" value="package board&#10;&#10;import org.junit.Assert&#10;import org.junit.Test&#10;&#10;class TestGameBoard {&#10;    operator fun &lt;T&gt; GameBoard&lt;T&gt;.get(i: Int, j: Int) = get(getCell(i, j))&#10;    operator fun &lt;T&gt; GameBoard&lt;T&gt;.set(i: Int, j: Int, value: T) = set(getCell(i, j), value)&#10;&#10;    @Test&#10;    fun testGetAndSetElement() {&#10;        val gameBoard = createGameBoard&lt;Char&gt;(2)&#10;        gameBoard[1, 1] = 'a'&#10;        Assert.assertEquals('a', gameBoard[1, 1])&#10;    }&#10;&#10;    @Test&#10;    fun testFilter() {&#10;        val gameBoard = createGameBoard&lt;Char&gt;(2)&#10;        gameBoard[1, 1] = 'a'&#10;        gameBoard[1, 2] = 'b'&#10;        val cells = gameBoard.filter { it == 'a' }&#10;        Assert.assertEquals(1, cells.size)&#10;        val cell = cells.first()&#10;        Assert.assertEquals(1, cell.i)&#10;        Assert.assertEquals(1, cell.j)&#10;    }&#10;&#10;    @Test&#10;    fun testAll() {&#10;        val gameBoard = createGameBoard&lt;Char&gt;(2)&#10;        gameBoard[1, 1] = 'a'&#10;        gameBoard[1, 2] = 'a'&#10;        Assert.assertFalse(gameBoard.all { it == 'a' })&#10;        gameBoard[2, 1] = 'a'&#10;        gameBoard[2, 2] = 'a'&#10;        Assert.assertTrue(gameBoard.all { it == 'a' })&#10;    }&#10;&#10;    @Test&#10;    fun testAny() {&#10;        val gameBoard = createGameBoard&lt;Char&gt;(2)&#10;        gameBoard[1, 1] = 'a'&#10;        gameBoard[1, 2] = 'b'&#10;        Assert.assertTrue(gameBoard.any { it in 'a'..'b' })&#10;        Assert.assertTrue(gameBoard.any { it == null })&#10;    }&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="test/TestSquareBoard.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/TestSquareBoard.kt" />
+                                <option name="text" value="package board&#10;&#10;import org.junit.Assert&#10;import org.junit.Test&#10;&#10;class TestSquareBoard {&#10;&#10;    private fun Cell?.asString() = if (this != null) &quot;($i, $j)&quot; else &quot;&quot;&#10;&#10;    private fun Collection&lt;Cell&gt;.asString() = joinToString(prefix = &quot;[&quot;, postfix = &quot;]&quot;) { it.asString() }&#10;&#10;    @Test&#10;    fun testAllCells() {&#10;        val board = createSquareBoard(2)&#10;        val cells = board.getAllCells().sortedWith(compareBy&lt;Cell&gt; { it.i }.thenBy { it.j })&#10;        Assert.assertEquals(&quot;[(1, 1), (1, 2), (2, 1), (2, 2)]&quot;, cells.asString())&#10;    }&#10;&#10;    @Test&#10;    fun testCell() {&#10;        val board = createSquareBoard(2)&#10;        val cell = board.getCellOrNull(1, 2)&#10;        Assert.assertEquals(1, cell?.i)&#10;        Assert.assertEquals(2, cell?.j)&#10;    }&#10;&#10;    @Test&#10;    fun testNoCell() {&#10;        val board = createSquareBoard(2)&#10;        val cell = board.getCellOrNull(3, 3)&#10;        Assert.assertEquals(null, cell)&#10;    }&#10;&#10;    @Test&#10;    fun testRow() {&#10;        val board = createSquareBoard(2)&#10;        val row = board.getRow(1, 1..2)&#10;        Assert.assertEquals(&quot;[(1, 1), (1, 2)]&quot;, row.asString())&#10;    }&#10;&#10;    @Test&#10;    fun testRowReversed() {&#10;        val board = createSquareBoard(2)&#10;        val row = board.getRow(1, 2 downTo 1)&#10;        Assert.assertEquals(&quot;[(1, 2), (1, 1)]&quot;, row.asString())&#10;    }&#10;&#10;    @Test&#10;    fun testRowWrongRange() {&#10;        val board = createSquareBoard(2)&#10;        val row = board.getRow(1, 1..10)&#10;        Assert.assertEquals(&quot;[(1, 1), (1, 2)]&quot;, row.asString())&#10;    }&#10;&#10;    @Test&#10;    fun testNeighbour() {&#10;        val board = createSquareBoard(2)&#10;        with(board) {&#10;            val cell = getCellOrNull(1, 1)&#10;            Assert.assertNotNull(cell)&#10;            Assert.assertEquals(null, cell!!.getNeighbour(Direction.UP))&#10;            Assert.assertEquals(null, cell.getNeighbour(Direction.LEFT))&#10;            Assert.assertEquals(&quot;(2, 1)&quot;, cell.getNeighbour(Direction.DOWN).asString())&#10;            Assert.assertEquals(&quot;(1, 2)&quot;, cell.getNeighbour(Direction.RIGHT).asString())&#10;        }&#10;    }&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="testsText">
+                        <map>
+                          <entry key="test/TestGameBoard.kt" value="package board&#10;&#10;import org.junit.Assert&#10;import org.junit.Test&#10;&#10;class TestGameBoard {&#10;    operator fun &lt;T&gt; GameBoard&lt;T&gt;.get(i: Int, j: Int) = get(getCell(i, j))&#10;    operator fun &lt;T&gt; GameBoard&lt;T&gt;.set(i: Int, j: Int, value: T) = set(getCell(i, j), value)&#10;&#10;    @Test&#10;    fun testGetAndSetElement() {&#10;        val gameBoard = createGameBoard&lt;Char&gt;(2)&#10;        gameBoard[1, 1] = 'a'&#10;        Assert.assertEquals('a', gameBoard[1, 1])&#10;    }&#10;&#10;    @Test&#10;    fun testFilter() {&#10;        val gameBoard = createGameBoard&lt;Char&gt;(2)&#10;        gameBoard[1, 1] = 'a'&#10;        gameBoard[1, 2] = 'b'&#10;        val cells = gameBoard.filter { it == 'a' }&#10;        Assert.assertEquals(1, cells.size)&#10;        val cell = cells.first()&#10;        Assert.assertEquals(1, cell.i)&#10;        Assert.assertEquals(1, cell.j)&#10;    }&#10;&#10;    @Test&#10;    fun testAll() {&#10;        val gameBoard = createGameBoard&lt;Char&gt;(2)&#10;        gameBoard[1, 1] = 'a'&#10;        gameBoard[1, 2] = 'a'&#10;        Assert.assertFalse(gameBoard.all { it == 'a' })&#10;        gameBoard[2, 1] = 'a'&#10;        gameBoard[2, 2] = 'a'&#10;        Assert.assertTrue(gameBoard.all { it == 'a' })&#10;    }&#10;&#10;    @Test&#10;    fun testAny() {&#10;        val gameBoard = createGameBoard&lt;Char&gt;(2)&#10;        gameBoard[1, 1] = 'a'&#10;        gameBoard[1, 2] = 'b'&#10;        Assert.assertTrue(gameBoard.any { it in 'a'..'b' })&#10;        Assert.assertTrue(gameBoard.any { it == null })&#10;    }&#10;}" />
+                          <entry key="test/TestSquareBoard.kt" value="package board&#10;&#10;import org.junit.Assert&#10;import org.junit.Test&#10;&#10;class TestSquareBoard {&#10;&#10;    private fun Cell?.asString() = if (this != null) &quot;($i, $j)&quot; else &quot;&quot;&#10;&#10;    private fun Collection&lt;Cell&gt;.asString() = joinToString(prefix = &quot;[&quot;, postfix = &quot;]&quot;) { it.asString() }&#10;&#10;    @Test&#10;    fun testAllCells() {&#10;        val board = createSquareBoard(2)&#10;        val cells = board.getAllCells().sortedWith(compareBy&lt;Cell&gt; { it.i }.thenBy { it.j })&#10;        Assert.assertEquals(&quot;[(1, 1), (1, 2), (2, 1), (2, 2)]&quot;, cells.asString())&#10;    }&#10;&#10;    @Test&#10;    fun testCell() {&#10;        val board = createSquareBoard(2)&#10;        val cell = board.getCellOrNull(1, 2)&#10;        Assert.assertEquals(1, cell?.i)&#10;        Assert.assertEquals(2, cell?.j)&#10;    }&#10;&#10;    @Test&#10;    fun testNoCell() {&#10;        val board = createSquareBoard(2)&#10;        val cell = board.getCellOrNull(3, 3)&#10;        Assert.assertEquals(null, cell)&#10;    }&#10;&#10;    @Test&#10;    fun testRow() {&#10;        val board = createSquareBoard(2)&#10;        val row = board.getRow(1, 1..2)&#10;        Assert.assertEquals(&quot;[(1, 1), (1, 2)]&quot;, row.asString())&#10;    }&#10;&#10;    @Test&#10;    fun testRowReversed() {&#10;        val board = createSquareBoard(2)&#10;        val row = board.getRow(1, 2 downTo 1)&#10;        Assert.assertEquals(&quot;[(1, 2), (1, 1)]&quot;, row.asString())&#10;    }&#10;&#10;    @Test&#10;    fun testRowWrongRange() {&#10;        val board = createSquareBoard(2)&#10;        val row = board.getRow(1, 1..10)&#10;        Assert.assertEquals(&quot;[(1, 1), (1, 2)]&quot;, row.asString())&#10;    }&#10;&#10;    @Test&#10;    fun testNeighbour() {&#10;        val board = createSquareBoard(2)&#10;        with(board) {&#10;            val cell = getCellOrNull(1, 1)&#10;            Assert.assertNotNull(cell)&#10;            Assert.assertEquals(null, cell!!.getNeighbour(Direction.UP))&#10;            Assert.assertEquals(null, cell.getNeighbour(Direction.LEFT))&#10;            Assert.assertEquals(&quot;(2, 1)&quot;, cell.getNeighbour(Direction.DOWN).asString())&#10;            Assert.assertEquals(&quot;(1, 2)&quot;, cell.getNeighbour(Direction.RIGHT).asString())&#10;        }&#10;    }&#10;}&#10;" />
+                        </map>
+                      </option>
+                      <option name="updateDate" value="0" />
+                    </EduTask>
+                  </list>
+                </option>
+                <option name="unitId" value="0" />
+              </Lesson>
+            </list>
+          </option>
+        </Course>
+      </option>
+    </StudyTaskManager>
+  </component>
+</project>

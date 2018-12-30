@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Board/Task/Board-Task.iml" filepath="$PROJECT_DIR$/.idea/modules/Board/Task/Board-Task.iml" group="Board-Task" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Board/Task/Board-Task_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Board/Task/Board-Task_main.iml" group="Board-Task" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Board/Task/Board-Task_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Board/Task/Board-Task_test.iml" group="Board-Task" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Kotlin_for_Java_Developers._Week_4.iml" filepath="$PROJECT_DIR$/.idea/Kotlin_for_Java_Developers._Week_4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Rationals/Task/Rationals-Task.iml" filepath="$PROJECT_DIR$/.idea/modules/Rationals/Task/Rationals-Task.iml" group="Rationals-Task" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Rationals/Task/Rationals-Task_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Rationals/Task/Rationals-Task_main.iml" group="Rationals-Task" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Rationals/Task/Rationals-Task_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Rationals/Task/Rationals-Task_test.iml" group="Rationals-Task" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/util.iml" filepath="$PROJECT_DIR$/.idea/modules/util/util.iml" group="util" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/util_main.iml" filepath="$PROJECT_DIR$/.idea/modules/util/util_main.iml" group="util" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/util_test.iml" filepath="$PROJECT_DIR$/.idea/modules/util/util_test.iml" group="util" />
+    </modules>
+  </component>
+</project>

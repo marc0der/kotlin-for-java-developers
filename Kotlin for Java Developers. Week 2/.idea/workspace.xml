@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="127052fa-33f7-4cbd-9aa3-0326ce16cec8" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/build/" />
+    <ignored path="$PROJECT_DIR$/Mastermind/Task/.gradle/" />
+    <ignored path="$PROJECT_DIR$/Mastermind/Task/build/" />
+    <ignored path="$PROJECT_DIR$/Mastermind/Task/out/" />
+    <ignored path="$PROJECT_DIR$/util/.gradle/" />
+    <ignored path="$PROJECT_DIR$/util/build/" />
+    <ignored path="$PROJECT_DIR$/util/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Mastermind/Task/src/mastermind/evaluateGuess.kt">
+          <provider selected="true" editor-type-id="StudyEditor">
+            <state relative-caret-position="23">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.2.71/ff62b6a76e3200cac3d7df0859d7665fe6d54955/kotlin-stdlib-common-1.2.71-sources.jar!/generated/_Collections.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="32867">
+              <caret line="1434" column="39" selection-start-line="1434" selection-start-column="39" selection-end-line="1434" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Mastermind/Task/src/mastermind/playMastermind.kt">
+          <provider selected="true" editor-type-id="StudyEditor">
+            <state relative-caret-position="345">
+              <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Mastermind/Task/test/MastermindTests.kt">
+          <provider selected="true" editor-type-id="StudyEditor">
+            <state relative-caret-position="621">
+              <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Mastermind/Task/src/mastermind/playMastermind.kt" />
+        <option value="$PROJECT_DIR$/Mastermind/Task/test/MastermindTests.kt" />
+        <option value="$PROJECT_DIR$/Mastermind/Task/src/nullable.kt" />
+        <option value="$PROJECT_DIR$/Mastermind/Task/test/nullable.kt" />
+        <option value="$PROJECT_DIR$/Mastermind/Task/src/mastermind/evaluateGuess.kt" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="360" />
+    <option name="width" value="1920" />
+    <option name="height" value="1044" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="Course" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Kotlin_for_Java_Developers._Week_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kotlin for Java Developers. Week 2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="Kotlin_for_Java_Developers._Week_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kotlin for Java Developers. Week 2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Mastermind" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Kotlin_for_Java_Developers._Week_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kotlin for Java Developers. Week 2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Mastermind" type="462c0819:PsiDirectoryNode" />
+              <item name="Task" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="Kotlin_for_Java_Developers._Week_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kotlin for Java Developers. Week 2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Mastermind" type="462c0819:PsiDirectoryNode" />
+              <item name="Task" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Course">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Kotlin_for_Java_Developers._Week_2" type="a264ea2a:RootNode" />
+              <item name="Kotlin for Java Developers. Week 2" type="ed842865:CourseNode" />
+            </path>
+            <path>
+              <item name="Kotlin_for_Java_Developers._Week_2" type="a264ea2a:RootNode" />
+              <item name="Kotlin for Java Developers. Week 2" type="ed842865:CourseNode" />
+              <item name="Mastermind" type="d53b8fed:LessonNode" />
+            </path>
+            <path>
+              <item name="Kotlin_for_Java_Developers._Week_2" type="a264ea2a:RootNode" />
+              <item name="Kotlin for Java Developers. Week 2" type="ed842865:CourseNode" />
+              <item name="Mastermind" type="d53b8fed:LessonNode" />
+              <item name="Task" type="4928525d:TaskNode" />
+            </path>
+            <path>
+              <item name="Kotlin_for_Java_Developers._Week_2" type="a264ea2a:RootNode" />
+              <item name="Kotlin for Java Developers. Week 2" type="ed842865:CourseNode" />
+              <item name="Mastermind" type="d53b8fed:LessonNode" />
+              <item name="Task" type="4928525d:TaskNode" />
+              <item name="src" type="61faebc3:DirectoryNode" />
+            </path>
+            <path>
+              <item name="Kotlin_for_Java_Developers._Week_2" type="a264ea2a:RootNode" />
+              <item name="Kotlin for Java Developers. Week 2" type="ed842865:CourseNode" />
+              <item name="Mastermind" type="d53b8fed:LessonNode" />
+              <item name="Task" type="4928525d:TaskNode" />
+              <item name="src" type="61faebc3:DirectoryNode" />
+              <item name="mastermind" type="61faebc3:DirectoryNode" />
+            </path>
+            <path>
+              <item name="Kotlin_for_Java_Developers._Week_2" type="a264ea2a:RootNode" />
+              <item name="Kotlin for Java Developers. Week 2" type="ed842865:CourseNode" />
+              <item name="Mastermind" type="d53b8fed:LessonNode" />
+              <item name="Task" type="4928525d:TaskNode" />
+              <item name="test" type="61faebc3:DirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="show.inlinked.gradle.project.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Mastermind/Task/test" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.MastermindTests">
+    <configuration name="MastermindTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mastermind-Task_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mastermind.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="mastermind.MastermindTests" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NullableKt (1)" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="Mastermind-Task_test" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="NullableKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NullableKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="Mastermind-Task_main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="NullableKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.MastermindTests" />
+      <item itemvalue="Kotlin.NullableKt" />
+      <item itemvalue="Kotlin.NullableKt (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MastermindTests" />
+        <item itemvalue="Kotlin.NullableKt (1)" />
+        <item itemvalue="Kotlin.NullableKt" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../../klarna/creditsafe-se-lookup-service" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../klarna/experian-no-lookup-service" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../klarna/lookup-service-auth" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../klarna/variable-mapping-job" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="MastermindTests - 2018.11.18 at 15h 51m 07s.xml">
+      <configuration name="MastermindTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MastermindTests - 2018.11.25 at 20h 33m 36s.xml">
+      <configuration name="MastermindTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MastermindTests - 2018.11.25 at 20h 33m 51s.xml">
+      <configuration name="MastermindTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MastermindTests - 2018.11.25 at 20h 34m 50s.xml">
+      <configuration name="MastermindTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MastermindTests - 2018.11.27 at 20h 12m 47s.xml">
+      <configuration name="MastermindTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MastermindTests - 2018.11.27 at 20h 12m 55s.xml">
+      <configuration name="MastermindTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MastermindTests - 2018.11.27 at 20h 45m 32s.xml">
+      <configuration name="MastermindTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MastermindTests - 2018.11.27 at 20h 52m 24s.xml">
+      <configuration name="MastermindTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MastermindTests - 2018.11.27 at 20h 54m 18s.xml">
+      <configuration name="MastermindTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MastermindTests - 2018.11.27 at 21h 01m 28s.xml">
+      <configuration name="MastermindTests" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="2560" height="1440" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20883055" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.39106753" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3293348" />
+      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Build" order="12" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.3293348" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Gradle" order="3" />
+      <window_info anchor="right" id="Task Description" order="4" visible="true" weight="0.15115353" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="right" id="Maven" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2765625" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.27959502" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3293348" />
+      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Build" order="12" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.3293348" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Gradle" order="3" />
+      <window_info anchor="right" id="Task Description" order="4" visible="true" weight="0.14882812" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="right" id="Maven" order="8" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.2.71/ff62b6a76e3200cac3d7df0859d7665fe6d54955/kotlin-stdlib-common-1.2.71-sources.jar!/kotlin/util/Standard.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mastermind/Task/test/nullable.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#0#70#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mastermind/Task/src/mastermind/evaluateGuess.kt">
+      <provider selected="true" editor-type-id="StudyEditor">
+        <state relative-caret-position="23">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.2.71/ff62b6a76e3200cac3d7df0859d7665fe6d54955/kotlin-stdlib-common-1.2.71-sources.jar!/generated/_Collections.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32867">
+          <caret line="1434" column="39" selection-start-line="1434" selection-start-column="39" selection-end-line="1434" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mastermind/Task/src/mastermind/playMastermind.kt">
+      <provider selected="true" editor-type-id="StudyEditor">
+        <state relative-caret-position="345">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mastermind/Task/test/MastermindTests.kt">
+      <provider selected="true" editor-type-id="StudyEditor">
+        <state relative-caret-position="621">
+          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+          <folding>
+            <element signature="e#20#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>groovy-2.5.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Kotlin_for_Java_Developers._Week_2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

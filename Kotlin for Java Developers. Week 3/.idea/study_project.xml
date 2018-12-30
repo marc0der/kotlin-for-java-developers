@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="StudySettings">
+    <StudyTaskManager>
+      <option name="VERSION" value="11" />
+      <option name="myUserTests">
+        <map />
+      </option>
+      <option name="course">
+        <Course>
+          <option name="authors">
+            <list />
+          </option>
+          <option name="courseMode" value="Study" />
+          <option name="courseType" value="Coursera" />
+          <option name="customPresentableName" />
+          <option name="description" value="Assignment for Week 3 of the Coursera &lt;a href=&quot;https://www.coursera.org/learn/kotlin-for-java-developers/&quot;&gt;Kotlin for Java Developers&lt;/a&gt; course" />
+          <option name="fromZip" value="false" />
+          <option name="index" value="-1" />
+          <option name="language" value="kotlin" />
+          <option name="languageCode" value="en" />
+          <option name="name" value="Kotlin for Java Developers. Week 3" />
+          <option name="stepikChangeStatus" value="Up to date" />
+          <option name="items">
+            <list>
+              <Lesson>
+                <option name="customPresentableName" />
+                <option name="id" value="0" />
+                <option name="index" value="1" />
+                <option name="name" value="Nice String" />
+                <option name="stepikChangeStatus" value="Up to date" />
+                <option name="updateDate" value="0" />
+                <option name="taskList">
+                  <list>
+                    <EduTask>
+                      <option name="additionalFiles">
+                        <map>
+                          <entry key=".attach_pid14033">
+                            <value>
+                              <AdditionalFile>
+                                <option name="text" value="" />
+                                <option name="visible" value="true" />
+                              </AdditionalFile>
+                            </value>
+                          </entry>
+                          <entry key=".attach_pid15406">
+                            <value>
+                              <AdditionalFile>
+                                <option name="text" value="" />
+                                <option name="visible" value="true" />
+                              </AdditionalFile>
+                            </value>
+                          </entry>
+                          <entry key=".attach_pid3702">
+                            <value>
+                              <AdditionalFile>
+                                <option name="text" value="" />
+                                <option name="visible" value="true" />
+                              </AdditionalFile>
+                            </value>
+                          </entry>
+                          <entry key="assignmentKey">
+                            <value>
+                              <AdditionalFile>
+                                <option name="text" value="L5n-E72jEeibpxJ59cbklA" />
+                                <option name="visible" value="false" />
+                              </AdditionalFile>
+                            </value>
+                          </entry>
+                          <entry key="partId">
+                            <value>
+                              <AdditionalFile>
+                                <option name="text" value="oYlfC" />
+                                <option name="visible" value="false" />
+                              </AdditionalFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="MD" />
+                      <option name="descriptionText" value="## Nice String&#10;&#10;We'll say a string is nice if at least two of the following conditions are satisfied:&#10;&#10;1. It doesn't contain substrings `bu`, `ba` or `be`;&#10;2. It contains at least three vowels (vowels are `a`, `e`, `i`, `o` and `u`);&#10;3. It contains a double letter (at least two similar letters following one&#10;another), like `b` in `&quot;abba&quot;`.&#10;&#10;Your task is to check whether a given string is nice. &#10;Strings for this task will consist of lowercase letters only.&#10;Note that for the purpose of this task, we don't consider 'y' as a vowel.&#10;&#10;#### Example 1&#10;&#10;`&quot;bac&quot;` isn't nice. No conditions are satisfied: it contains a `ba` substring,&#10;contains only one vowel and no doubles.&#10;&#10;#### Example 2&#10;&#10;`&quot;aza&quot;` isn't nice. Only the first condition is satisfied, but the string&#10;doesn't contain enough vowels or doubles.&#10;&#10;#### Example 3&#10;&#10;`&quot;abaca&quot;` isn't nice. The second condition is satisfied: it contains three&#10;vowels `a`, but the other two aren't satisfied: it contains `ba` and no&#10;doubles.&#10;&#10;#### Example 4&#10;&#10;`&quot;baaa&quot;` is nice. The conditions #2 and #3 are satisfied: it contains&#10;three vowels `a` and a double `a`. &#10;&#10;#### Example 5&#10;&#10;`&quot;aaab&quot;` is nice, because all three conditions are satisfied." />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://www.coursera.org/learn/kotlin-for-java-developers/programming/hlugM/nice-string/discussions" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="index" value="1" />
+                      <option name="name" value="Task" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepId" value="0" />
+                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="src/nicestring/NiceString.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list />
+                                      </option>
+                                      <option name="index" value="0" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="6" />
+                                          <option name="offset" value="55" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="initializedFromDependency" value="false" />
+                                      <option name="length" value="156" />
+                                      <option name="offset" value="50" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="TODO()" />
+                                      <option name="possibleAnswer" value="" />
+                                      <option name="selected" value="true" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="studentAnswer" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/nicestring/NiceString.kt" />
+                                <option name="text" value="package nicestring&#10;&#10;fun String.isNice(): Boolean {&#10;    TODO()&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="test/TestNiceStrings.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="test/TestNiceStrings.kt" />
+                                <option name="text" value="package nicestring&#10;&#10;import org.junit.Assert&#10;import org.junit.Test&#10;&#10;class TestNiceStrings {&#10;&#10;    private fun testNiceString(string: String, expected: Boolean) {&#10;        Assert.assertEquals(&quot;Wrong result for \&quot;$string\&quot;.isNice()&quot;, expected, string.isNice())&#10;    }&#10;&#10;    @Test&#10;    fun testExample1() = testNiceString(&quot;bac&quot;, false)&#10;&#10;    @Test&#10;    fun testExample2() = testNiceString(&quot;aza&quot;, false)&#10;&#10;    @Test&#10;    fun testExample3() = testNiceString(&quot;abaca&quot;, false)&#10;&#10;    @Test&#10;    fun testExample4() = testNiceString(&quot;baaa&quot;, true)&#10;&#10;    @Test&#10;    fun testExample5() = testNiceString(&quot;aaab&quot;, true)&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="testsText">
+                        <map>
+                          <entry key="test/TestNiceStrings.kt" value="package nicestring&#10;&#10;import org.junit.Assert&#10;import org.junit.Test&#10;&#10;class TestNiceStrings {&#10;&#10;    private fun testNiceString(string: String, expected: Boolean) {&#10;        Assert.assertEquals(&quot;Wrong result for \&quot;$string\&quot;.isNice()&quot;, expected, string.isNice())&#10;    }&#10;&#10;    @Test&#10;    fun testExample1() = testNiceString(&quot;bac&quot;, false)&#10;&#10;    @Test&#10;    fun testExample2() = testNiceString(&quot;aza&quot;, false)&#10;&#10;    @Test&#10;    fun testExample3() = testNiceString(&quot;abaca&quot;, false)&#10;&#10;    @Test&#10;    fun testExample4() = testNiceString(&quot;baaa&quot;, true)&#10;&#10;    @Test&#10;    fun testExample5() = testNiceString(&quot;aaab&quot;, true)&#10;}" />
+                        </map>
+                      </option>
+                      <option name="updateDate" value="0" />
+                    </EduTask>
+                  </list>
+                </option>
+                <option name="unitId" value="0" />
+              </Lesson>
+              <Lesson>
+                <option name="customPresentableName" />
+                <option name="id" value="0" />
+                <option name="index" value="2" />
+                <option name="name" value="Taxi Park" />
+                <option name="stepikChangeStatus" value="Up to date" />
+                <option name="updateDate" value="0" />
+                <option name="taskList">
+                  <list>
+                    <EduTask>
+                      <option name="additionalFiles">
+                        <map>
+                          <entry key=".attach_pid10000">
+                            <value>
+                              <AdditionalFile>
+                                <option name="text" value="" />
+                                <option name="visible" value="true" />
+                              </AdditionalFile>
+                            </value>
+                          </entry>
+                          <entry key=".attach_pid17182">
+                            <value>
+                              <AdditionalFile>
+                                <option name="text" value="" />
+                                <option name="visible" value="true" />
+                              </AdditionalFile>
+                            </value>
+                          </entry>
+                          <entry key=".attach_pid18798">
+                            <value>
+                              <AdditionalFile>
+                                <option name="text" value="" />
+                                <option name="visible" value="true" />
+                              </AdditionalFile>
+                            </value>
+                          </entry>
+                          <entry key=".attach_pid19101">
+                            <value>
+                              <AdditionalFile>
+                                <option name="text" value="" />
+                                <option name="visible" value="true" />
+                              </AdditionalFile>
+                            </value>
+                          </entry>
+                          <entry key=".attach_pid20826">
+                            <value>
+                              <AdditionalFile>
+                                <option name="text" value="" />
+                                <option name="visible" value="true" />
+                              </AdditionalFile>
+                            </value>
+                          </entry>
+                          <entry key=".attach_pid23263">
+                            <value>
+                              <AdditionalFile>
+                                <option name="text" value="" />
+                                <option name="visible" value="true" />
+                              </AdditionalFile>
+                            </value>
+                          </entry>
+                          <entry key=".attach_pid23411">
+                            <value>
+                              <AdditionalFile>
+                                <option name="text" value="" />
+                                <option name="visible" value="true" />
+                              </AdditionalFile>
+                            </value>
+                          </entry>
+                          <entry key=".attach_pid29934">
+                            <value>
+                              <AdditionalFile>
+                                <option name="text" value="" />
+                                <option name="visible" value="true" />
+                              </AdditionalFile>
+                            </value>
+                          </entry>
+                          <entry key=".attach_pid30689">
+                            <value>
+                              <AdditionalFile>
+                                <option name="text" value="" />
+                                <option name="visible" value="true" />
+                              </AdditionalFile>
+                            </value>
+                          </entry>
+                          <entry key=".attach_pid8650">
+                            <value>
+                              <AdditionalFile>
+                                <option name="text" value="" />
+                                <option name="visible" value="true" />
+                              </AdditionalFile>
+                            </value>
+                          </entry>
+                          <entry key="assignmentKey">
+                            <value>
+                              <AdditionalFile>
+                                <option name="text" value="JjCPW8FuEei-Lw5ra1tlSg" />
+                                <option name="visible" value="false" />
+                              </AdditionalFile>
+                            </value>
+                          </entry>
+                          <entry key="partId">
+                            <value>
+                              <AdditionalFile>
+                                <option name="text" value="RYvjw" />
+                                <option name="visible" value="false" />
+                              </AdditionalFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="MD" />
+                      <option name="descriptionText" value="## Taxi Park&#10;&#10;The `TaxiPark` class stores information about the registered drivers, passengers,&#10;and their trips. Your task is to implement six functions which collect&#10;different statistics about the data.  &#10;&#10;#### Task 1&#10;&#10;```&#10;fun TaxiPark.findFakeDrivers(): Collection&lt;Driver&gt;&#10;```&#10;&#10;Find all the drivers who performed no trips.&#10;&#10;&#10;#### Task 2&#10;&#10;```&#10;fun TaxiPark.findFaithfulPassengers(minTrips: Int): List&lt;Passenger&gt;&#10;```&#10;&#10;Find all the clients who completed at least the given number of trips.&#10;&#10;#### Task 3&#10;&#10;```&#10;fun TaxiPark.findFrequentPassengers(driver: Driver): List&lt;Passenger&gt;&#10;```&#10;&#10;Find all the passengers, who were taken by a given driver more than once.&#10;&#10;#### Task 4&#10;&#10;```&#10;fun TaxiPark.findSmartPassengers(): Collection&lt;Passenger&gt;&#10;```&#10;&#10;Find the passengers who had a discount for majority of their trips.&#10;Note that the discount can't be `0.0`, it's always non-zero if it's recorded. &#10;&#10;#### Task 5&#10;&#10;```&#10;fun TaxiPark.findTheMostFrequentTripDuration(): IntRange?&#10;```&#10;&#10;Find the most frequent trip duration among minute periods 0..9, 10..19, 20..29, and so on.&#10;Return any suitable period if many are the most frequent, return `null` if there're no trips.&#10; &#10;&#10;#### Task 6&#10;&#10;```&#10;fun TaxiPark.checkParetoPrinciple(): Boolean&#10;```&#10;&#10;Check whether no more than 20% of the drivers contribute 80% of the income.&#10;If the taxi park contains no trips, the result should be `false`. " />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" value="https://www.coursera.org/learn/kotlin-for-java-developers/programming/xTPZT/taxi-park/discussions" />
+                          <option name="type" value="CUSTOM" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="index" value="1" />
+                      <option name="name" value="Task" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepId" value="0" />
+                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="taskFiles">
+                        <map>
+                          <entry key="src/taxipark/TaxiPark.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="src/taxipark/TaxiPark.kt" />
+                                <option name="text" value="package taxipark&#10;&#10;data class TaxiPark(&#10;        val allDrivers: Set&lt;Driver&gt;,&#10;        val allPassengers: Set&lt;Passenger&gt;,&#10;        val trips: List&lt;Trip&gt;)&#10;&#10;data class Driver(val name: String)&#10;data class Passenger(val name: String)&#10;&#10;data class Trip(&#10;        val driver: Driver,&#10;        val passengers: Set&lt;Passenger&gt;,&#10;        // trip duration in minutes&#10;        val duration: Int,&#10;        // trip distance in km&#10;        val distance: Double,&#10;        // the percentage of discount (in 0.0..1.0 if not null)&#10;        val discount: Double? = null&#10;) {&#10;    val cost: Double&#10;        get() = (1 - (discount ?: 0.0)) * (duration + distance)&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="src/taxipark/TaxiParkTask.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list />
+                                      </option>
+                                      <option name="index" value="0" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="6" />
+                                          <option name="offset" value="136" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="initializedFromDependency" value="false" />
+                                      <option name="length" value="86" />
+                                      <option name="offset" value="136" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="TODO()" />
+                                      <option name="possibleAnswer" value="" />
+                                      <option name="selected" value="true" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="studentAnswer" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list />
+                                      </option>
+                                      <option name="index" value="1" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="6" />
+                                          <option name="offset" value="311" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="initializedFromDependency" value="false" />
+                                      <option name="length" value="6" />
+                                      <option name="offset" value="4920" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="TODO()" />
+                                      <option name="possibleAnswer" value="" />
+                                      <option name="selected" value="true" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="studentAnswer" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list />
+                                      </option>
+                                      <option name="index" value="2" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="6" />
+                                          <option name="offset" value="490" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="initializedFromDependency" value="false" />
+                                      <option name="length" value="6" />
+                                      <option name="offset" value="5099" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="TODO()" />
+                                      <option name="possibleAnswer" value="" />
+                                      <option name="selected" value="true" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="studentAnswer" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list />
+                                      </option>
+                                      <option name="index" value="3" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="6" />
+                                          <option name="offset" value="646" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="initializedFromDependency" value="false" />
+                                      <option name="length" value="6" />
+                                      <option name="offset" value="5255" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="TODO()" />
+                                      <option name="possibleAnswer" value="" />
+                                      <option name="selected" value="true" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="studentAnswer" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list />
+                                      </option>
+                                      <option name="index" value="4" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="6" />
+                                          <option name="offset" value="929" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="initializedFromDependency" value="false" />
+                                      <option name="length" value="6" />
+                                      <option name="offset" value="5538" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="TODO()" />
+                                      <option name="possibleAnswer" value="" />
+                                      <option name="selected" value="true" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="studentAnswer" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list />
+                                      </option>
+                                      <option name="index" value="5" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="6" />
+                                          <option name="offset" value="1075" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="initializedFromDependency" value="false" />
+                                      <option name="length" value="6" />
+                                      <option name="offset" value="5684" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="TODO()" />
+                                      <option name="possibleAnswer" value="" />
+                                      <option name="selected" value="true" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="studentAnswer" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/taxipark/TaxiParkTask.kt" />
+                                <option name="text" value="package taxipark&#10;&#10;/*&#10; * Task #1. Find all the drivers who performed no trips.&#10; */&#10;fun TaxiPark.findFakeDrivers(): Set&lt;Driver&gt; =&#10;        TODO()&#10;&#10;/*&#10; * Task #2. Find all the clients who completed at least the given number of trips.&#10; */&#10;fun TaxiPark.findFaithfulPassengers(minTrips: Int): Set&lt;Passenger&gt; =&#10;        TODO()&#10;&#10;/*&#10; * Task #3. Find all the passengers, who were taken by a given driver more than once.&#10; */&#10;fun TaxiPark.findFrequentPassengers(driver: Driver): Set&lt;Passenger&gt; =&#10;        TODO()&#10;&#10;/*&#10; * Task #4. Find the passengers who had a discount for majority of their trips.&#10; */&#10;fun TaxiPark.findSmartPassengers(): Set&lt;Passenger&gt; =&#10;        TODO()&#10;&#10;/*&#10; * Task #5. Find the most frequent trip duration among minute periods 0..9, 10..19, 20..29, and so on.&#10; * Return any period if many are the most frequent, return `null` if there're no trips.&#10; */&#10;fun TaxiPark.findTheMostFrequentTripDurationPeriod(): IntRange? {&#10;    return TODO()&#10;}&#10;&#10;/*&#10; * Task #6.&#10; * Check whether 20% of the drivers contribute 80% of the income.&#10; */&#10;fun TaxiPark.checkParetoPrinciple(): Boolean {&#10;    TODO()&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="test/TaxiParkTestUtil.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/TaxiParkTestUtil.kt" />
+                                <option name="text" value="package taxipark&#10;&#10;fun driver(i: Int) = Driver(&quot;D-$i&quot;)&#10;fun passenger(i: Int) = Passenger(&quot;P-$i&quot;)&#10;&#10;fun drivers(indices: List&lt;Int&gt;) = indices.map(::driver).toSet()&#10;fun drivers(range: IntRange) = drivers(range.toList())&#10;fun drivers(vararg indices: Int) = drivers(indices.toList())&#10;&#10;fun passengers(indices: List&lt;Int&gt;) = indices.map(::passenger).toSet()&#10;fun passengers(range: IntRange) = passengers(range.toList())&#10;fun passengers(vararg indices: Int) = passengers(indices.toList())&#10;&#10;fun taxiPark(driverIndexes: IntRange, passengerIndexes: IntRange, vararg trips: Trip) =&#10;        TaxiPark(drivers(driverIndexes), passengers(passengerIndexes), trips.toList())&#10;&#10;fun trip(driverIndex: Int, passengerIndexes: List&lt;Int&gt;, duration: Int = 10, distance: Double = 3.0, discount: Double? = null) =&#10;        Trip(driver(driverIndex), passengers(passengerIndexes), duration, distance, discount)&#10;&#10;fun trip(driverIndex: Int, passenger: Int, duration: Int = 10, distance: Double = 3.0, discount: Double? = null) =&#10;        Trip(driver(driverIndex), passengers(passenger), duration, distance, discount)&#10;&#10;fun TaxiPark.display() = buildString {&#10;    appendln()&#10;    appendln(&quot;Taxi park:&quot;)&#10;    appendln(&quot;Drivers: ${allDrivers.joinToString { it.name }}&quot;)&#10;    appendln(&quot;Passengers: ${allPassengers.joinToString { it.name }}&quot;)&#10;    appendln(&quot;Trips: ${trips.joinToString { it.display() }}&quot;)&#10;}&#10;&#10;fun Trip.display(): String {&#10;    val discountText = discount?.let { &quot;, $it&quot; } ?: &quot;&quot;&#10;    return &quot;(${driver.name}, ${passengers.joinToString(prefix = &quot;[&quot;, postfix = &quot;]&quot;) { it.name }}, $duration, $distance$discountText)&quot;&#10;}&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="test/TestTaxiPark.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="test/TestTaxiPark.kt" />
+                                <option name="text" value="package taxipark&#10;&#10;import org.junit.Assert&#10;import org.junit.Test&#10;&#10;class TestTaxiPark {&#10;    @Test&#10;    fun testFakeDrivers() {&#10;        val tp = taxiPark(1..3, 1..2, trip(1, 1), trip(1, 2))&#10;        Assert.assertEquals(&quot;Wrong result for 'findFakeDrivers()'.&quot; + tp.display(),&#10;                drivers(2, 3).toSet(), tp.findFakeDrivers())&#10;    }&#10;&#10;    @Test&#10;    fun testFaithfulPassengers() {&#10;        val tp = taxiPark(1..3, 1..5, trip(1, 1), trip(2, 1), trip(1, 4), trip(3, 4), trip(1, 5), trip(2, 5), trip(2, 2))&#10;        Assert.assertEquals(&quot;Wrong result for 'findFaithfulPassengers()'. MinTrips: 2.&quot; + tp.display(),&#10;                passengers(1, 4, 5), tp.findFaithfulPassengers(2))&#10;    }&#10;&#10;    @Test&#10;    fun testFrequentPassengers() {&#10;        val tp = taxiPark(1..2, 1..4, trip(1, 1), trip(1, 1), trip(1, listOf(1, 3)), trip(1, 3), trip(1, 2), trip(2, 2))&#10;        Assert.assertEquals(&quot;Wrong result for 'findFrequentPassengers()'. Driver: ${driver(1).name}.&quot; + tp.display(),&#10;                passengers(1, 3), tp.findFrequentPassengers(driver(1)))&#10;    }&#10;&#10;    @Test&#10;    fun testSmartPassengers() {&#10;        val tp = taxiPark(1..2, 1..2, trip(1, 1, discount = 0.1), trip(2, 2))&#10;        Assert.assertEquals(&quot;Wrong result for 'findSmartPassengers()'.&quot; + tp.display(),&#10;                passengers(1), tp.findSmartPassengers())&#10;    }&#10;&#10;    @Test&#10;    fun testTheMostFrequentTripDuration() {&#10;        val tp = taxiPark(1..3, 1..5, trip(1, 1, duration = 10), trip(3, 4, duration = 30),&#10;                trip(1, 2, duration = 20), trip(2, 3, duration = 35))&#10;        // The period 30..39 is the most frequent since there are two trips (duration 30 and 35)&#10;        Assert.assertEquals(&quot;Wrong result for 'findTheMostFrequentTripDurationPeriod()'.&quot;,&#10;                30..39, tp.findTheMostFrequentTripDurationPeriod())&#10;    }&#10;&#10;    @Test&#10;    fun testParetoPrincipleSucceeds() {&#10;        val tp = taxiPark(1..5, 1..4,&#10;                trip(1, 1, 20, 20.0),&#10;                trip(1, 2, 20, 20.0),&#10;                trip(1, 3, 20, 20.0),&#10;                trip(1, 4, 20, 20.0),&#10;                trip(2, 1, 20, 20.0))&#10;        // The income of driver #1: 160.0;&#10;        // the total income of drivers #2..5: 40.0.&#10;        // The first driver constitutes exactly 20% of five drivers&#10;        // and his relative income is 160.0 / 200.0 = 80%.&#10;&#10;        Assert.assertEquals(&#10;                &quot;Wrong result for 'checkParetoPrinciple()'.&quot; + tp.display(),&#10;                true, tp.checkParetoPrinciple())&#10;    }&#10;&#10;    @Test&#10;    fun testParetoPrincipleFails() {&#10;        val tp = taxiPark(1..5, 1..4,&#10;                trip(1, 1, 20, 20.0),&#10;                trip(1, 2, 20, 20.0),&#10;                trip(1, 3, 20, 20.0),&#10;                trip(2, 4, 20, 20.0),&#10;                trip(3, 1, 20, 20.0))&#10;        // The income of driver #1: 120.0;&#10;        // the total income of drivers #2..5: 80.0.&#10;        // The first driver constitutes 20% of five drivers&#10;        // but his relative income is 120.0 / 200.0 = 60%&#10;        // which is less than 80%.&#10;&#10;        Assert.assertEquals(&#10;                &quot;Wrong result for 'checkParetoPrinciple()'.&quot; + tp.display(),&#10;                false, tp.checkParetoPrinciple())&#10;    }&#10;&#10;    @Test&#10;    fun testParetoPrincipleNoTrips() {&#10;        val tp = taxiPark(1..5, 1..4)&#10;        Assert.assertEquals(&#10;                &quot;Wrong result for 'checkParetoPrinciple()'.&quot; + tp.display(),&#10;                false, tp.checkParetoPrinciple())&#10;    }&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="testsText">
+                        <map>
+                          <entry key="test/TaxiParkTestUtil.kt" value="package taxipark&#10;&#10;fun driver(i: Int) = Driver(&quot;D-$i&quot;)&#10;fun passenger(i: Int) = Passenger(&quot;P-$i&quot;)&#10;&#10;fun drivers(indices: List&lt;Int&gt;) = indices.map(::driver).toSet()&#10;fun drivers(range: IntRange) = drivers(range.toList())&#10;fun drivers(vararg indices: Int) = drivers(indices.toList())&#10;&#10;fun passengers(indices: List&lt;Int&gt;) = indices.map(::passenger).toSet()&#10;fun passengers(range: IntRange) = passengers(range.toList())&#10;fun passengers(vararg indices: Int) = passengers(indices.toList())&#10;&#10;fun taxiPark(driverIndexes: IntRange, passengerIndexes: IntRange, vararg trips: Trip) =&#10;        TaxiPark(drivers(driverIndexes), passengers(passengerIndexes), trips.toList())&#10;&#10;fun trip(driverIndex: Int, passengerIndexes: List&lt;Int&gt;, duration: Int = 10, distance: Double = 3.0, discount: Double? = null) =&#10;        Trip(driver(driverIndex), passengers(passengerIndexes), duration, distance, discount)&#10;&#10;fun trip(driverIndex: Int, passenger: Int, duration: Int = 10, distance: Double = 3.0, discount: Double? = null) =&#10;        Trip(driver(driverIndex), passengers(passenger), duration, distance, discount)&#10;&#10;fun TaxiPark.display() = buildString {&#10;    appendln()&#10;    appendln(&quot;Taxi park:&quot;)&#10;    appendln(&quot;Drivers: ${allDrivers.joinToString { it.name }}&quot;)&#10;    appendln(&quot;Passengers: ${allPassengers.joinToString { it.name }}&quot;)&#10;    appendln(&quot;Trips: ${trips.joinToString { it.display() }}&quot;)&#10;}&#10;&#10;fun Trip.display(): String {&#10;    val discountText = discount?.let { &quot;, $it&quot; } ?: &quot;&quot;&#10;    return &quot;(${driver.name}, ${passengers.joinToString(prefix = &quot;[&quot;, postfix = &quot;]&quot;) { it.name }}, $duration, $distance$discountText)&quot;&#10;}&#10;" />
+                          <entry key="test/TestTaxiPark.kt" value="package taxipark&#10;&#10;import org.junit.Assert&#10;import org.junit.Test&#10;&#10;class TestTaxiPark {&#10;    @Test&#10;    fun testFakeDrivers() {&#10;        val tp = taxiPark(1..3, 1..2, trip(1, 1), trip(1, 2))&#10;        Assert.assertEquals(&quot;Wrong result for 'findFakeDrivers()'.&quot; + tp.display(),&#10;                drivers(2, 3).toSet(), tp.findFakeDrivers())&#10;    }&#10;&#10;    @Test&#10;    fun testFaithfulPassengers() {&#10;        val tp = taxiPark(1..3, 1..5, trip(1, 1), trip(2, 1), trip(1, 4), trip(3, 4), trip(1, 5), trip(2, 5), trip(2, 2))&#10;        Assert.assertEquals(&quot;Wrong result for 'findFaithfulPassengers()'. MinTrips: 2.&quot; + tp.display(),&#10;                passengers(1, 4, 5), tp.findFaithfulPassengers(2))&#10;    }&#10;&#10;    @Test&#10;    fun testFrequentPassengers() {&#10;        val tp = taxiPark(1..2, 1..4, trip(1, 1), trip(1, 1), trip(1, listOf(1, 3)), trip(1, 3), trip(1, 2), trip(2, 2))&#10;        Assert.assertEquals(&quot;Wrong result for 'findFrequentPassengers()'. Driver: ${driver(1).name}.&quot; + tp.display(),&#10;                passengers(1, 3), tp.findFrequentPassengers(driver(1)))&#10;    }&#10;&#10;    @Test&#10;    fun testSmartPassengers() {&#10;        val tp = taxiPark(1..2, 1..2, trip(1, 1, discount = 0.1), trip(2, 2))&#10;        Assert.assertEquals(&quot;Wrong result for 'findSmartPassengers()'.&quot; + tp.display(),&#10;                passengers(1), tp.findSmartPassengers())&#10;    }&#10;&#10;    @Test&#10;    fun testTheMostFrequentTripDuration() {&#10;        val tp = taxiPark(1..3, 1..5, trip(1, 1, duration = 10), trip(3, 4, duration = 30),&#10;                trip(1, 2, duration = 20), trip(2, 3, duration = 35))&#10;        // The period 30..39 is the most frequent since there are two trips (duration 30 and 35)&#10;        Assert.assertEquals(&quot;Wrong result for 'findTheMostFrequentTripDurationPeriod()'.&quot;,&#10;                30..39, tp.findTheMostFrequentTripDurationPeriod())&#10;    }&#10;&#10;    @Test&#10;    fun testParetoPrincipleSucceeds() {&#10;        val tp = taxiPark(1..5, 1..4,&#10;                trip(1, 1, 20, 20.0),&#10;                trip(1, 2, 20, 20.0),&#10;                trip(1, 3, 20, 20.0),&#10;                trip(1, 4, 20, 20.0),&#10;                trip(2, 1, 20, 20.0))&#10;        // The income of driver #1: 160.0;&#10;        // the total income of drivers #2..5: 40.0.&#10;        // The first driver constitutes exactly 20% of five drivers&#10;        // and his relative income is 160.0 / 200.0 = 80%.&#10;&#10;        Assert.assertEquals(&#10;                &quot;Wrong result for 'checkParetoPrinciple()'.&quot; + tp.display(),&#10;                true, tp.checkParetoPrinciple())&#10;    }&#10;&#10;    @Test&#10;    fun testParetoPrincipleFails() {&#10;        val tp = taxiPark(1..5, 1..4,&#10;                trip(1, 1, 20, 20.0),&#10;                trip(1, 2, 20, 20.0),&#10;                trip(1, 3, 20, 20.0),&#10;                trip(2, 4, 20, 20.0),&#10;                trip(3, 1, 20, 20.0))&#10;        // The income of driver #1: 120.0;&#10;        // the total income of drivers #2..5: 80.0.&#10;        // The first driver constitutes 20% of five drivers&#10;        // but his relative income is 120.0 / 200.0 = 60%&#10;        // which is less than 80%.&#10;&#10;        Assert.assertEquals(&#10;                &quot;Wrong result for 'checkParetoPrinciple()'.&quot; + tp.display(),&#10;                false, tp.checkParetoPrinciple())&#10;    }&#10;&#10;    @Test&#10;    fun testParetoPrincipleNoTrips() {&#10;        val tp = taxiPark(1..5, 1..4)&#10;        Assert.assertEquals(&#10;                &quot;Wrong result for 'checkParetoPrinciple()'.&quot; + tp.display(),&#10;                false, tp.checkParetoPrinciple())&#10;    }&#10;}" />
+                        </map>
+                      </option>
+                      <option name="updateDate" value="0" />
+                    </EduTask>
+                  </list>
+                </option>
+                <option name="unitId" value="0" />
+              </Lesson>
+            </list>
+          </option>
+        </Course>
+      </option>
+    </StudyTaskManager>
+  </component>
+</project>
