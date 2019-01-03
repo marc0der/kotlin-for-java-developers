@@ -17,7 +17,7 @@ class TestSquareBoard {
         Assert.assertEquals("[(1, 1), (1, 2), (2, 1), (2, 2)]", cells.asString())
     }
 
-    @Ignore
+    @Test
     fun testCell() {
         val board = createSquareBoard(2)
         val cell = board.getCellOrNull(1, 2)
@@ -25,7 +25,7 @@ class TestSquareBoard {
         Assert.assertEquals(2, cell?.j)
     }
 
-    @Ignore
+    @Test
     fun testNoCell() {
         val board = createSquareBoard(2)
         val cell = board.getCellOrNull(3, 3)

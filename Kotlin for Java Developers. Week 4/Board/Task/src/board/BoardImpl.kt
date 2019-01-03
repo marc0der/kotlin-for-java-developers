@@ -5,7 +5,8 @@ import board.Direction.*
 fun createSquareBoard(width: Int): SquareBoard = object : SquareBoard {
     override val width: Int = width
 
-    override fun getCellOrNull(i: Int, j: Int): Cell? = TODO()
+    override fun getCellOrNull(i: Int, j: Int): Cell? = getAllCells().firstOrNull { it == Cell(i, j) }
+
     override fun getCell(i: Int, j: Int): Cell = TODO()
 
     override fun getAllCells(): Collection<Cell> =
