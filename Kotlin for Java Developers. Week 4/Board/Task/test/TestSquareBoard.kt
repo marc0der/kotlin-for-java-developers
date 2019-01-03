@@ -32,7 +32,7 @@ class TestSquareBoard {
         Assert.assertEquals(null, cell)
     }
 
-    @Ignore
+    @Test
     fun testRow() {
         val board = createSquareBoard(2)
         val row = board.getRow(1, 1..2)
