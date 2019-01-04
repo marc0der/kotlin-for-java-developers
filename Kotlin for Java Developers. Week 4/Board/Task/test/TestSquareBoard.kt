@@ -4,6 +4,7 @@ import org.junit.Assert
 import org.junit.Assert.assertEquals
 import org.junit.Ignore
 import org.junit.Test
+import java.lang.IllegalArgumentException
 
 class TestSquareBoard {
 
@@ -27,10 +28,16 @@ class TestSquareBoard {
     }
 
     @Test
-    fun testNoCell() {
+    fun testNoCellAsNull() {
         val board = createSquareBoard(2)
         val cell = board.getCellOrNull(3, 3)
         assertEquals(null, cell)
+    }
+
+    @Test(expected = IllegalArgumentException::class)
+    fun testNoCellAsException() {
+        val board = createSquareBoard(2)
+        board.getCell(3, 3)
     }
 
     @Test
