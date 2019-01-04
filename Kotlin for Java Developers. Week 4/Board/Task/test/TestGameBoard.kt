@@ -16,7 +16,7 @@ class TestGameBoard {
         assertEquals('a', gameBoard[1, 1])
     }
 
-    @Ignore
+    @Test
     fun testFilter() {
         val gameBoard = createGameBoard<Char>(2)
         gameBoard[1, 1] = 'a'

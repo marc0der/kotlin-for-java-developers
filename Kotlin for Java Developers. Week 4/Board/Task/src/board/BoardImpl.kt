@@ -1,7 +1,5 @@
 package board
 
-import java.lang.IllegalArgumentException
-
 fun createSquareBoard(width: Int): SquareBoard = SquareBoardImpl(width)
 
 open class SquareBoardImpl(override val width: Int) : SquareBoard {
@@ -47,7 +45,9 @@ class GameBoardImpl<T>(width: Int) : SquareBoardImpl(width), GameBoard<T> {
         cells[cell] = value
     }
 
-    override fun filter(predicate: (T?) -> Boolean): Collection<Cell> = TODO()
+    override fun filter(predicate: (T?) -> Boolean): Collection<Cell> =
+            cells.entries.filter { predicate(it.value) }.map { it.key }
+
     override fun find(predicate: (T?) -> Boolean): Cell? = TODO()
     override fun any(predicate: (T?) -> Boolean): Boolean = TODO()
     override fun all(predicate: (T?) -> Boolean): Boolean = TODO()
