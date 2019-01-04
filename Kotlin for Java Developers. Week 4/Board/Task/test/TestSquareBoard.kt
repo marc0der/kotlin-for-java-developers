@@ -1,7 +1,7 @@
 package board
 
 import org.junit.Assert
-import org.junit.Assert.assertEquals
+import org.junit.Assert.*
 import org.junit.Ignore
 import org.junit.Test
 import java.lang.IllegalArgumentException
@@ -70,14 +70,14 @@ class TestSquareBoard {
         assertEquals("[(1, 1), (1, 2)]", row.asString())
     }
 
-    @Ignore
+    @Test
     fun testNeighbour() {
         val board = createSquareBoard(2)
         with(board) {
             val cell = getCellOrNull(1, 1)
-            Assert.assertNotNull(cell)
-            assertEquals(null, cell!!.getNeighbour(Direction.UP))
-            assertEquals(null, cell.getNeighbour(Direction.LEFT))
+            assertNotNull(cell)
+            assertNull(cell!!.getNeighbour(Direction.UP))
+            assertNull(cell.getNeighbour(Direction.LEFT))
             assertEquals("(2, 1)", cell.getNeighbour(Direction.DOWN).asString())
             assertEquals("(1, 2)", cell.getNeighbour(Direction.RIGHT).asString())
         }

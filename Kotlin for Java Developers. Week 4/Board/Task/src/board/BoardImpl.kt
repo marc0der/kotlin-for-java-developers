@@ -24,7 +24,12 @@ fun createSquareBoard(width: Int): SquareBoard = object : SquareBoard {
 
     override fun getColumn(iRange: IntProgression, j: Int): List<Cell> = TODO()
 
-    override fun Cell.getNeighbour(direction: Direction): Cell? = TODO()
+    override fun Cell.getNeighbour(direction: Direction): Cell? = when (direction) {
+        Direction.UP -> getCellOrNull(this.i - 1, j)
+        Direction.LEFT -> getCellOrNull(this.i, j - 1)
+        Direction.DOWN -> getCellOrNull(this.i + 1, j)
+        Direction.RIGHT -> getCellOrNull(this.i, j + 1)
+    }
 }
 
 fun <T> createGameBoard(width: Int): GameBoard<T> = TODO()
