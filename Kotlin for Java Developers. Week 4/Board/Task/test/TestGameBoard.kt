@@ -1,7 +1,6 @@
 package board
 
 import org.junit.Assert.*
-import org.junit.Ignore
 import org.junit.Test
 
 class TestGameBoard {
@@ -41,12 +40,22 @@ class TestGameBoard {
         assertTrue(gameBoard.all { it == 'a' })
     }
 
-    @Ignore
+    @Test
     fun testAny() {
         val gameBoard = createGameBoard<Char>(2)
         gameBoard[1, 1] = 'a'
         gameBoard[1, 2] = 'b'
         assertTrue(gameBoard.any { it in 'a'..'b' })
         assertTrue(gameBoard.any { it == null })
+    }
+
+    @Test
+    fun testFind() {
+        val gameBoard = createGameBoard<Char>(2)
+
+        assertNull(gameBoard.find { it == 'a' })
+
+        gameBoard[2, 1] = 'c'
+        assertTrue(gameBoard.find { it == 'c' } == Cell(2, 1))
     }
 }

@@ -49,9 +49,11 @@ class GameBoardImpl<T>(width: Int) : SquareBoardImpl(width), GameBoard<T> {
     override fun filter(predicate: (T?) -> Boolean): Collection<Cell> =
             cells.entries.filter { predicate(it.value) }.map { it.key }
 
-    override fun find(predicate: (T?) -> Boolean): Cell? = TODO()
+    override fun find(predicate: (T?) -> Boolean): Cell? =
+            cells.entries.find { predicate(it.value) }?.key
 
-    override fun any(predicate: (T?) -> Boolean): Boolean = TODO()
+    override fun any(predicate: (T?) -> Boolean): Boolean =
+            cells.entries.any { predicate(it.value) }
 
     override fun all(predicate: (T?) -> Boolean): Boolean =
             cells.entries.all { predicate(it.value) }
