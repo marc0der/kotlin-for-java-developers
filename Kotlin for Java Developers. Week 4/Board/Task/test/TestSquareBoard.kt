@@ -54,6 +54,13 @@ class TestSquareBoard {
     }
 
     @Test
+    fun testColumn() {
+        val board = createSquareBoard(2)
+        val column = board.getColumn(1..2, 1)
+        assertEquals("[(1, 1), (2, 1)]", column.asString())
+    }
+
+    @Test
     fun testRowReversed() {
         val board = createSquareBoard(2)
         val row = board.getRow(1, 2 downTo 1)

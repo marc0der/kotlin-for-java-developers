@@ -21,7 +21,8 @@ open class SquareBoardImpl(override val width: Int) : SquareBoard {
             jRange.applyBounds(width).map { j -> getCell(i, j) }
 
 
-    override fun getColumn(iRange: IntProgression, j: Int): List<Cell> = TODO()
+    override fun getColumn(iRange: IntProgression, j: Int): List<Cell> =
+            iRange.applyBounds(width).map { i -> getCell(i, j) }
 
     override fun Cell.getNeighbour(direction: Direction): Cell? = when (direction) {
         Direction.UP -> getCellOrNull(this.i - 1, j)
