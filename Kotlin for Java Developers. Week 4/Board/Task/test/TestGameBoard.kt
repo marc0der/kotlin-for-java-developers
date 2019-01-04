@@ -28,12 +28,14 @@ class TestGameBoard {
         assertEquals(1, cell.j)
     }
 
-    @Ignore
+    @Test
     fun testAll() {
         val gameBoard = createGameBoard<Char>(2)
+
         gameBoard[1, 1] = 'a'
         gameBoard[1, 2] = 'a'
         assertFalse(gameBoard.all { it == 'a' })
+
         gameBoard[2, 1] = 'a'
         gameBoard[2, 2] = 'a'
         assertTrue(gameBoard.all { it == 'a' })
